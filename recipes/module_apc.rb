@@ -9,7 +9,7 @@
 
 include_recipe "php::module_apc"
 
-template "/etc/php5/conf.d/apc.ini" do
+template "/etc/php5/conf.d/20-apc.ini" do
  source "apc.ini.erb"
  owner "root"
  group 0
